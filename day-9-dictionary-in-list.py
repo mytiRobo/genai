@@ -1,6 +1,6 @@
-country = input() # Add country name
-visits = int(input()) # Number of visits
-list_of_cities = eval(input()) # create list from formatted string
+country = input('Enter the country: ')
+visits = int(input("No of visits: "))
+list_of_cities = eval(input('List of cities: '))
 travel_log = [
   {
     "country": "France",
@@ -13,7 +13,7 @@ travel_log = [
     "cities": ["Berlin", "Hamburg", "Stuttgart"]
   },
 ]
-# Your code here 👇
+
 def add_new_country(name, times_visited, cities_visited):
   new_country = {}
   new_country["country"] = name

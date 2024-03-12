@@ -6,6 +6,8 @@ def get_random_account():
   """Get data from random account"""
   return random.choice(data)
 
+# name = sumit()
+
 def format_data(account):
   """Format account into printable format: name, description and country"""
   name = account["name"]
@@ -23,7 +25,7 @@ def check_answer(guess, a_followers, b_followers):
   else:
     return guess == "b"
 
-
+# print(name)
 def game():
   print(logo)
   score = 0
